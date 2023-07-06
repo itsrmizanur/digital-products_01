@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    background-color: blanchedalmond;
+}
+.box {
+    background-color: #be9292;
+    height: 50px;
+    width: 50px;
+    padding: 20px;
+}
+.box2 {
+    background-color: #582828;
+}
+.box3 {
+    background-color: #ce5858;
+}

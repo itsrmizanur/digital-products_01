@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
 }
+
+/* Nav starts */
 .menu-container {
     background-color: rgb(44, 43, 43);
     color: white;
@@ -26,3 +28,39 @@
     background-color: #585555;
     border-radius: 3px;
 }
+/* Nav ends */
+
+/* Banner starts */
+.banner-img {
+    width: 300px;
+}
+.banner-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-image: url("./images/background.png"), linear-gradient(45deg, #353131, #000);
+    color: white;
+}
+.title {
+    font-size: 55px;
+    font-weight: bold;
+}
+.discription {
+    font-size: 18px;
+    margin: 20px 0;
+}
+.btn {
+    padding: 10px 20px;
+    background-color: rgb(236, 47, 47);
+    color: rgb(247, 235, 235);
+    border-radius: 5px;
+    border: none;
+}
+.btn:hover {
+    background-color: red;
+    color: white;
+}
+
+/* Banner Ends */
+
